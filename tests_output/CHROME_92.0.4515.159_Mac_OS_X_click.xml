@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="3"
+<testsuites errors="0"
             failures="0"
             tests="1">
 
-  <testsuite name="simple"
-    errors="3" failures="0" hostname="" id="" package="simple" skipped="0"
-    tests="1" time="8.384" timestamp="">
+  <testsuite name="click"
+    errors="0" failures="0" hostname="" id="" package="click" skipped="0"
+    tests="1" time="4.563" timestamp="">
   
-    <testcase name="Hello, world!" classname="simple" time="8.384" assertions="0">
-    <error message="An error occurred while running .clearValue() command on &lt;#text-input&gt;:   (Session info: chrome=92.0.4515.159),  (Driver info: chromedriver=92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}),platform=Mac OS X 10.15.7 x86_64); no such window: window was already closed" type="error"><![CDATA[
-    Error
-    at Object.Hello, world! (/Users/trishaaguinaldo/qa/simple/test/simple.js:26:17)
-    ]]></error>
-    
+    <testcase name="click test" classname="click" time="4.563" assertions="0">
     </testcase>
   
 
