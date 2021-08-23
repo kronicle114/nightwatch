@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="assert-contains-text"
+    errors="1" failures="0" hostname="" id="" package="assert-contains-text" skipped="0"
+    tests="1" time="3.331" timestamp="">
+  
+    <testcase name="Expect Visible" classname="assert-contains-text" time="3.331" assertions="3">
+
+    
+
+    
+
+    
+    <error message="Error while running &#34;element&#34; command: &#34;Error: Incomplete expect assertion for &#34;expect.element()&#34;. Please consult the docs at https://nightwatchjs.org/api/expect/
+&#34;" type="error"><![CDATA[
+    Error
+    at Object.Expect Visible (/Users/trishaaguinaldo/qa/simple/test/assert-contains-text.js:27:24)
+    at Context.call (/Users/trishaaguinaldo/qa/simple/node_modules/nightwatch/lib/testsuite/context.js:376:35)
+    at TestCase.run (/Users/trishaaguinaldo/qa/simple/node_modules/nightwatch/lib/testsuite/testcase.js:58:31)
+    at Runnable.handleRunnable [as __runFn] (/Users/trishaaguinaldo/qa/simple/node_modules/nightwatch/lib/testsuite/index.js:384:80)
+    at Runnable.run (/Users/trishaaguinaldo/qa/simple/node_modules/nightwatch/lib/testsuite/runnable.js:123:21)
+    at TestSuite.createRunnable (/Users/trishaaguinaldo/qa/simple/node_modules/nightwatch/lib/testsuite/index.js:496:33)
+    at TestSuite.handleRunnable (/Users/trishaaguinaldo/qa/simple/node_modules/nightwatch/lib/testsuite/index.js:501:18)
+    at createSession.then.then._ (/Users/trishaaguinaldo/qa/simple/node_modules/nightwatch/lib/testsuite/index.js:384:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        Error: Error while running &#34;element&#34; command: &#34;Error: Incomplete expect assertion for &#34;expect.element()&#34;. Please consult the docs at https://nightwatchjs.org/api/expect/
+  &#34;
+       at Object.Expect Visible (/Users/trishaaguinaldo/qa/simple/test/assert-contains-text.js:27:24)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
