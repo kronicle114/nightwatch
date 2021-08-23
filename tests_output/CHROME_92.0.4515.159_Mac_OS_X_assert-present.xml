@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="assert-present"
+    errors="0" failures="1" hostname="" id="" package="assert-present" skipped="0"
+    tests="1" time="5.343" timestamp="">
+  
+    <testcase name="Assert Present" classname="assert-present" time="5.343" assertions="1">  <failure message="Testing if element &lt;#some-id&gt; is present in 5000ms - expected &#34;is present&#34; but got: &#34;not present&#34; (5143ms)">    at Object.Assert Present (/Users/trishaaguinaldo/qa/simple/test/assert-present.js:4:24)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
